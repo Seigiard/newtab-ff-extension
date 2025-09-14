@@ -1,0 +1,11 @@
+{
+  "version": {
+    "license": "MPL-2.0"
+  },
+  "categories": {
+    "firefox": ["tabs"]
+  },
+  "summary": {
+    "en-US": "Shows your homepage on new tabs, instead of the default Firefox start page."
+  }
+}
