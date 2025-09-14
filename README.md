@@ -31,7 +31,7 @@ npm run dev:floorp // Floorp
 // Open a new tab in the browser and agree to keep the changes.
 ```
 
-## Build (if you need it)
+## Build (for local test)
 
 ```sh
 npm run build
