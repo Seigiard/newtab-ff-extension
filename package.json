@@ -1,11 +1,13 @@
 {
   "name": "newtab-ff-extension",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Firefox extension that puts your homepage on new tabs, without stealing keyboard focus from the address bar.",
   "scripts": {
-    "start:firefox": "web-ext run --source-dir ./src/",
-    "start:watefox": "web-ext run -f /Applications/Waterfox.app/Contents/MacOS/waterfox-bin --source-dir ./src/",
-    "build": "web-ext build --source-dir ./src/"
+    "dev:firefox": "web-ext run --source-dir ./src/",
+    "dev:watefox": "web-ext run -f /Applications/Waterfox.app/Contents/MacOS/waterfox-bin --source-dir ./src/",
+    "dev:floorp": "web-ext run -f /Applications/Floorp.app/Contents/MacOS/floorp --source-dir ./src/",
+    "build": "npm run lint && web-ext build --source-dir ./src/ --overwrite-dest",
+    "lint": "web-ext lint --source-dir ./src/"
   },
   "author": "Andrej Borisenko & Leigh Brenecki",
   "license": "ISC",
@@ -14,6 +16,6 @@
   },
   "homepage": "https://github.com/Seigiard/newtab-ff-extension",
   "dependencies": {
-    "web-ext": "^7.9.0"
+    "web-ext": "^8.9.0"
   }
 }
