@@ -10,7 +10,7 @@ The behavior of the URL bar is the same as the Firefox start page: it'll be blan
 
 This extension respects dark theme to avoid flash of white page when new tab is loading.
 
-This add-on is open source (MPL), and comprises of only about 20 lines of JS. You can read the full source, and if something doesn't quite work, make a PR or file an issue.
+This add-on is [open source (MPL)](https://www.mozilla.org/en-US/MPL/), and comprises of only about 20 lines of JS. You can read the full source, and if something doesn't quite work, make a PR or file an issue.
 
 ## Development
 
@@ -18,8 +18,12 @@ This add-on is open source (MPL), and comprises of only about 20 lines of JS. Yo
 npm i
 
 npm run dev:firefox // Firefox
+// or
 npm run dev:waterfox // Waterfox
+// or
 npm run dev:floorp // Floorp
+
+// Open a new tab in the browser and agree to keep the changes.
 ```
 
 ## Deploy
