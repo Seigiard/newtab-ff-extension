@@ -13,7 +13,7 @@ This add-on shows your homepage on new tabs, instead of the default Firefox star
 *   **Dark Theme Friendly:** Avoids the blinding "flash of white" when opening a new tab in a dark environment by respecting your browser's theme.
 *   **Lightweight & Secure:** This add-on is [open source (MPL)](https://www.mozilla.org/en-US/MPL/) and consists of only about 20 lines of JS. No data collection, no bloat, no nonsense.
 
-## 📦 Installation
+## Installation
 
 1.  Visit the extension page on [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/new-tab-shows-your-homepage/).
 2.  Click the "Add to Firefox" button.
