@@ -30,13 +30,13 @@ npm i
 Run and develop
 
 ```sh
-npm run dev:firefox // Firefox
-// or
-npm run dev:waterfox // Waterfox
-// or
-npm run dev:floorp // Floorp
+npm run dev:firefox # Firefox
+# or
+npm run dev:waterfox # Waterfox
+# or
+npm run dev:floorp # Floorp
 
-// Open a new tab in the browser and agree to keep the changes.
+# Open a new tab in the browser and agree to keep the changes.
 ```
 
 Build for local test
