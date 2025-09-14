@@ -6,20 +6,28 @@ A Firefox extension that puts your homepage on new tabs, without stealing keyboa
 
 This add-on shows your homepage on new tabs, instead of the default Firefox start page.
 
-The behavior of the URL bar is the same as the Firefox start page: it'll be blank and focused, until you navigate away from your home page.
+## Features
 
-This extension respects dark theme to avoid flash of white page when new tab is loading.
+*   **Seamless Workflow:** The address bar is immediately focused and ready for input, just like on the default new tab page. No extra clicks needed—just open a tab and start typing.
+*   **Power-User Ready:** Built for keyboard-heavy workflows. Press Esc in the address bar to instantly shift focus to the page, enabling immediate use of extensions like Vimium-C. No extra clicks needed, unlike other similar add-ons.
+*   **Dark Theme Friendly:** Avoids the blinding "flash of white" when opening a new tab in a dark environment by respecting your browser's theme.
+*   **Lightweight & Secure:** This add-on is [open source (MPL)](https://www.mozilla.org/en-US/MPL/) and consists of only about 20 lines of JS. No data collection, no bloat, no nonsense.
 
-This add-on is [open source (MPL)](https://www.mozilla.org/en-US/MPL/), and comprises of only about 20 lines of JS. You can read the full source, and if something doesn't quite work, make a PR or file an issue.
+## 📦 Installation
 
+1.  Visit the extension page on [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/new-tab-shows-your-homepage/).
+2.  Click the "Add to Firefox" button.
+3.  Done! Every new tab will now show your homepage.
 
-## Getting Started
+## Development
+
+Install all deps
 
 ```sh
 npm i
 ```
 
-## Development
+Run and develop
 
 ```sh
 npm run dev:firefox // Firefox
@@ -31,13 +39,13 @@ npm run dev:floorp // Floorp
 // Open a new tab in the browser and agree to keep the changes.
 ```
 
-## Build (for local test)
+Build for local test
 
 ```sh
 npm run build
 ```
 
-## Publish
+Create `.env`, fill it and publish in the store
 
 ```sh
 npm run sign
