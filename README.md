@@ -1,6 +1,6 @@
 # New Tab (shows your homepage)
 
-![Mozilla Add-on Stars](https://img.shields.io/amo/stars/new-tab-shows-your-homepage)
+[![Mozilla Add-on](https://img.shields.io/badge/Mozilla%20Addon-45CC11?style=for-the-badge&logo=Firefox-Browser&logoColor=white)![Stars](https://img.shields.io/amo/stars/new-tab-shows-your-homepage?style=for-the-badge&label=)](https://addons.mozilla.org/en-US/firefox/addon/new-tab-shows-your-homepage/)
 
 A Firefox extension that puts your homepage on new tabs, without stealing keyboard focus from the address bar.
 
